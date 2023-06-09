@@ -17,10 +17,8 @@ public class CILab implements CILabInterface {
             return true;
         if(myString.equals(myString.toLowerCase()))
             return true;
-//        if(myString.charAt(0) == Character.toUpperCase(myString.charAt(0)) &&
-//                myString.substring(1).equals(myString.substring(1).toLowerCase()))
-//            return true;
-        return false;
+        return myString.charAt(0) == Character.toUpperCase(myString.charAt(0)) &&
+                myString.substring(1).equals(myString.substring(1).toLowerCase());
     }
 
 }
