@@ -21,7 +21,6 @@ public class CILabTest {
     @Test
     public void detectCapitalUseTest1() {
        fail("Not yet implemented");
-
     }
     @Test
     public void detectCapitalUseTest2() {
